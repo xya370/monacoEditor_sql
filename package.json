@@ -1,0 +1,39 @@
+{
+  "name": "monacoeditor-pro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "antlr4": "node ./script/antlr4.js"
+  },
+  "dependencies": {
+    "antlr-format-cli": "^1.2.8",
+    "antlr4-c3": "3.3.7",
+    "antlr4ng": "2.0.11",
+    "antlr4ng-cli": "1.0.7",
+    "chalk": "^5.3.0",
+    "commitizen": "^4.3.1",
+    "glob": "^11.0.0",
+    "inquirer": "^12.2.0",
+    "monaco-editor": "^0.52.2",
+    "monaco-sql-languages": "^0.12.2",
+    "monacoeditor-pro": "file:",
+    "sql-formatter": "^15.4.7",
+    "typescript": "^5.7.2",
+    "vite-plugin-monaco-editor": "^1.1.0",
+    "vue": "^3.4.35",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.56.3",
+    "@arco-plugins/vite-vue": "^1.4.5",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "axios": "^1.7.9",
+    "unplugin-auto-import": "^0.19.0",
+    "unplugin-vue-components": "^0.28.0",
+    "vite": "^5.4.0"
+  }
+}
